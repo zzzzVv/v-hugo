@@ -1,11 +1,11 @@
 version: "3"
 services:
-   server:
-     image: klakegg/hugo
-     container_name: hugo-server
-     # command: new site /src
-     command: server
-     volumes:
-       - "./hugo:."
-     ports:
-       - "13131:13131"
+  server:
+    image: klakegg/hugo
+    container_name: hugo-server
+    # command: new site /src
+    command: server
+    volumes:
+      - "./hugo:/zxzw/v-hugo"
+    ports:
+      - "13131:13131"
